@@ -1,0 +1,26 @@
+{
+    "name": "echosa/twitch-api-cli",
+    "type": "library",
+    "description": "A Twitch API CLI client.",
+    "keywords": ["twitch", "twitch.tv", "twitch-tv", "twitch-api", "api"],
+    "homepage": "http://github.com/echosa/twitch-api-cli",
+    "authors": [
+        {
+            "name": "Brian Zwahr",
+            "homepage": "https://github.com/echosa"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "nicklaw5/twitch-api-php": "^2.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.13",
+        "phpspec/phpspec": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TwitchApiCli\\": "src/TwitchApiCli"
+        }
+    }
+}

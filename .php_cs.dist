@@ -1,0 +1,9 @@
+<?php
+
+$finder = PhpCsFixer\Finder::create()
+    ->in('src/TwitchApiCli/')
+;
+
+return PhpCsFixer\Config::create()
+    ->setFinder($finder)
+;
